@@ -1,0 +1,14 @@
+:root {
+  --hue: 200;
+  --fill-color: hsl(var(--hue), 100%, 50%);
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+svg {
+  fill: var(--fill-color);
+  width: 20%;
+}
