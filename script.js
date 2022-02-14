@@ -1,7 +1,7 @@
 class Logo {
   constructor(element) {
     this.element = element;
-    this.velocity = 0.025;
+    this.velocity = 0.02;
     this.reset();
   }
 
