@@ -28,7 +28,7 @@ svg {
   fill: var(--fill-color);
   width: 30%;
   -webkit-filter: drop-shadow(0px 0px 13px var(--fill-color));
-  filter: drop-shadow(0px 0px 13px var(--fill-color));
+  filter: drop-shadow(0px 0px 7px var(--fill-color));
 }
 
 /* Taken from: https://aleclownes.com/2017/02/01/crt-display.html */

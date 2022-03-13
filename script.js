@@ -42,13 +42,25 @@ class Logo {
     this.x += this.direction.x * this.velocity * delta;
     this.y += this.direction.y * this.velocity * delta;
     const rect = this.rect();
+    let centerY = (rect.height * 50) / window.innerHeight;
+    let centerX = (rect.width * 50) / window.innerWidth;
 
-    if (rect.bottom >= window.innerHeight || rect.top <= 0) {
+    if (rect.bottom >= window.innerHeight) {
+      this.y = 100 - centerY;
+      this.direction.y *= -1;
+      changeColor();
+    } else if (rect.top <= 0) {
+      this.y = centerY;
       this.direction.y *= -1;
       changeColor();
     }
 
-    if (rect.left <= 0 || rect.right >= window.innerWidth) {
+    if (rect.right >= window.innerWidth) {
+      this.x = 100 - centerX;
+      this.direction.x *= -1;
+      changeColor();
+    } else if (rect.left <= 0) {
+      this.x = centerX;
       this.direction.x *= -1;
       changeColor();
     }
