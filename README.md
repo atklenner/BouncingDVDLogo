@@ -1,4 +1,4 @@
-# DVD Menu
+# Bouncing DVD Logo
 
 **WARNING: LOTS OF FLICKERING AND FLASHING LIGHTS.**
 
@@ -26,4 +26,8 @@ Use `window.requestAnimationFrame` instead of `setTimeout` to run some JavaScrip
 
 ## More Projects:
 
-**Other Projects:** https://github.com/atklenner
+**GoodGames:** https://github.com/atklenner/goodgames
+
+**Homepage:** https://github.com/atklenner/homepage
+
+**Sketches:** https://github.com/atklenner/sketches
